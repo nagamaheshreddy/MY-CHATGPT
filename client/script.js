@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://localhost:9092', {
+    const response = await fetch('https://chat-gpt-qp0e.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
