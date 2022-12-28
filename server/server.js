@@ -47,4 +47,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(9091, () => console.log('AI server started on http://localhost:9091'))
+app.listen(9092, () => console.log('AI server started on http://localhost:9092'))
